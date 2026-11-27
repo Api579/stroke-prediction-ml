@@ -1,13 +1,10 @@
-# Stroke Prediction: Demographic vs Health Factors
+# Stroke Prediction: Demographic vs Health Indicators
 
-**ML & AI Project – EL01 Group 5**
+## About Project
 
-## About the Project
+Investigates whether **demographic data** or **health data** is a better predictor of stroke, includes logistic regression models for prediction.
 
-This project investigates whether **demographic data** or **health data** is a better predictor of stroke, and builds logistic regression models to predict stroke outcomes.
-
-The problem is split into two parts:
-
+Problem is in 2 parts:
 - **Problem 1 – Demographic perspective:** gender, age, marital status, residence type
 - **Problem 2 – Health perspective:** hypertension, heart disease, average glucose level, BMI, smoking status
 
@@ -18,14 +15,6 @@ The problem is split into two parts:
 - Handled the heavily imbalanced dataset (249 stroke vs 4,860 non-stroke cases) using **SMOTE** oversampling
 - Built **logistic regression** models, since stroke is a binary outcome
 - Evaluated with precision, recall, F1-score and accuracy, and compared each variable individually against stroke
-
-## Team (3 members)
-
-| Name |
-|------|
-| Tay Yuyang |
-| Apichart Yapakdee |
-| Wai Yan Myint |
 
 ## Dataset
 
@@ -49,4 +38,4 @@ pip install numpy pandas seaborn matplotlib scikit-learn imbalanced-learn jupyte
 jupyter notebook ML_code.ipynb
 ```
 
-Keep the CSV in the same folder as the notebook.
+**Note:** Keep the CSV in the same folder as the notebook.
